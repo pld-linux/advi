@@ -66,8 +66,8 @@ AKTUALNIE WSPIERA:
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 %{__make} install \
 	bindir=$RPM_BUILD_ROOT%{_bindir} \
 	ADVI_LOC=$RPM_BUILD_ROOT%{_datadir}/%{name}
@@ -77,6 +77,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+# COPYING specifies authors, doesn't contain LGPL text
 %doc COPYING README TODO doc/*.ps
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}
