@@ -71,7 +71,7 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 %{__make} install \
 	bindir=$RPM_BUILD_ROOT%{_bindir} \
 	ADVI_LOC=$RPM_BUILD_ROOT%{_datadir}/%{name}
-	
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
