@@ -5,20 +5,21 @@ Version:	1.0.0
 Release:	1
 License:	LGPL
 Group:		Applications/Publishing/TeX
-URL:		http://pauillac.inria.fr/advi/
 Source0:	ftp://ftp.inria.fr/INRIA/Projects/cristal/%{name}/%{name}-%{version}.tar.gz
 Patch0:		%{name}-datadir.patch
-BuildRequires:	ocaml-camlp4
-BuildRequires:	ocaml >= 3.04
-BuildRequires:	tetex
-BuildRequires:	tetex-latex
-BuildRequires:	tetex-dvips
+URL:		http://pauillac.inria.fr/advi/
 BuildRequires:	XFree86-devel
+BuildRequires:	autoconf
 BuildRequires:	ghostscript >= 6.52
-BuildRequires:	ocaml-x11graphics-devel
+BuildRequires:	ocaml >= 3.04
 BuildRequires:	ocaml-camlimages-devel
-Requires:	tetex
+BuildRequires:	ocaml-camlp4
+BuildRequires:	ocaml-x11graphics-devel
+BuildRequires:	tetex
+BuildRequires:	tetex-dvips
+BuildRequires:	tetex-latex
 Requires:	ghostscript >= 6.52
+Requires:	tetex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -69,13 +70,11 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 	bindir=$RPM_BUILD_ROOT%{_bindir} \
 	ADVI_LOC=$RPM_BUILD_ROOT%{_datadir}/%{name}
 	
-gzip -9nf COPYING README TODO doc/*.ps
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc doc/*.gz *.gz
+%doc COPYING README TODO doc/*.ps
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}
