@@ -44,7 +44,7 @@ CURRENTLY SUPPORTED FEATURES:
 AKTUALNIE WSPIERA:
 ==================
 
-+ Do³±cznie plików EPS (z u¿yciem pakietu graphics)
++ Do³±czanie plików EPS (z u¿yciem pakietu graphics)
 + Efekty do prezentacji (pauza, opó¼nienie, zmiana koloru tekstu)
 + Uruchamianie wbudowanych aplikacji w czasie prezentacji interaktywnych
 + Wy¶wietlanie obrazków poprzez gpic
