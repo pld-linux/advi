@@ -6,6 +6,7 @@ Release:	1
 License:	LGPL
 Group:		Applications/Publishing/TeX
 Source0:	ftp://ftp.inria.fr/INRIA/Projects/cristal/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	f605d653ff7785ff48c39851e990380f
 URL:		http://pauillac.inria.fr/advi/
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
