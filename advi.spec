@@ -1,12 +1,11 @@
 Summary:	DVI previewer
 Summary(pl):	Przegl±darka DVI
 Name:		advi
-Version:	1.0.0
+Version:	1.4.0
 Release:	1
 License:	LGPL
 Group:		Applications/Publishing/TeX
 Source0:	ftp://ftp.inria.fr/INRIA/Projects/cristal/%{name}/%{name}-%{version}.tar.gz
-Patch0:		%{name}-datadir.patch
 URL:		http://pauillac.inria.fr/advi/
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
@@ -18,6 +17,9 @@ BuildRequires:	ocaml-x11graphics-devel
 BuildRequires:	tetex
 BuildRequires:	tetex-dvips
 BuildRequires:	tetex-latex
+BuildRequires:	tetex-tex-pstricks
+BuildRequires:	tetex-tex-misc
+# probably some more tetex-* stuff is needed
 Requires:	ghostscript >= 6.52
 Requires:	tetex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -54,7 +56,6 @@ AKTUALNIE WSPIERA:
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__autoconf}
