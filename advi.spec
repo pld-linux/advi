@@ -46,7 +46,8 @@ AKTUALNIE WSPIERA:
 
 + Do³±czanie plików EPS (z u¿yciem pakietu graphics)
 + Efekty do prezentacji (pauza, opó¼nienie, zmiana koloru tekstu)
-+ Uruchamianie wbudowanych aplikacji w czasie prezentacji interaktywnych
++ Uruchamianie wbudowanych aplikacji w czasie prezentacji
+  interaktywnych
 + Wy¶wietlanie obrazków poprzez gpic
 + Wy¶wietlanie PostScriptu z u¿yciem gs
 + Antialiasing czcionek, który bierze pod uwagê kolor t³a
