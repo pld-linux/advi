@@ -56,7 +56,7 @@ AKTUALNIE WSPIERA:
 %patch0 -p1
 
 %build
-autoconf
+%{__autoconf}
 %configure
 %{__make} opt
 %{__make} -C doc
