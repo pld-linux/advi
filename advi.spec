@@ -1,5 +1,5 @@
 Summary:	DVI previewer
-Summary(pl):	Przegl±darka DVI
+Summary(pl.UTF-8):   PrzeglƒÖdarka DVI
 Name:		advi
 Version:	1.4.0
 Release:	1
@@ -40,21 +40,21 @@ CURRENTLY SUPPORTED FEATURES:
 + Background colors and images
 + Alpha blending for images
 
-%description -l pl
+%description -l pl.UTF-8
 AKTUALNIE WSPIERA:
 ==================
 
-+ Do≥±czanie plikÛw EPS (z uøyciem pakietu graphics)
-+ Efekty do prezentacji (pauza, opÛºnienie, zmiana koloru tekstu)
++ Do≈ÇƒÖczanie plik√≥w EPS (z u≈ºyciem pakietu graphics)
++ Efekty do prezentacji (pauza, op√≥≈∫nienie, zmiana koloru tekstu)
 + Uruchamianie wbudowanych aplikacji w czasie prezentacji
   interaktywnych
-+ Wy∂wietlanie obrazkÛw poprzez gpic
-+ Wy∂wietlanie PostScriptu z uøyciem gs
-+ Antialiasing czcionek, ktÛry bierze pod uwagÍ kolor t≥a
-+ Hiper≥±cza
-+ Aktywne obszary (wykonuj± akcjÍ gdy mysz jest nad nimi)
-+ Zmiana koloru t≥a i wy∂wietlanie obrazkÛw jako t≥a
-+ Rozmycie kana≥u alfa dla obrazkÛw
++ Wy≈õwietlanie obrazk√≥w poprzez gpic
++ Wy≈õwietlanie PostScriptu z u≈ºyciem gs
++ Antialiasing czcionek, kt√≥ry bierze pod uwagƒô kolor t≈Ça
++ Hiper≈ÇƒÖcza
++ Aktywne obszary (wykonujƒÖ akcjƒô gdy mysz jest nad nimi)
++ Zmiana koloru t≈Ça i wy≈õwietlanie obrazk√≥w jako t≈Ça
++ Rozmycie kana≈Çu alfa dla obrazk√≥w
 
 %prep
 %setup -q
