@@ -1,5 +1,5 @@
 Summary:	DVI previewer
-Summary(pl.UTF-8):   Przeglądarka DVI
+Summary(pl.UTF-8):	Przeglądarka DVI
 Name:		advi
 Version:	1.4.0
 Release:	1
